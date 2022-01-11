@@ -1,3 +1,8 @@
+# Install package 'locust'
+# Run 'locustfile.py'
+# Terminal to type 'locust'
+# Browse points to 'http://localhost:8089/'
+
 from locust import HttpUser, task, between
 
 class QuickstartUser(HttpUser):
